@@ -1,0 +1,10 @@
+@import 'color';
+@import 'mixin';
+h1{color:rgb(48, 80, 48)}
+h2{color:$color}
+.photo{
+    @include transform; 
+}
+.photo2{
+    @include transform;  
+}
